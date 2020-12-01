@@ -12,7 +12,7 @@ function Buscar(){
       
       $.ajax(settings).done(function (response) {
         console.log(response);
-        $("#contenido").text(response);
+        $("#contenido").text(response.value);
       });
 
 
