@@ -1,11 +1,12 @@
 function Buscar(){
 
     var settings = {
-        "url": "http://www.omdbapi.com/?apikey=80aea124&s=REC&y=2007",
-        "method": "POST",
+        "url": "https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random",
+        "method": "GET",
         "timeout": 0,
         "headers": {
-          "Cookie": "__cfduid=d58c149ad8f39bf81768d02813979dadd1606843852"
+          "x-rapidapi-key": "2075d24590msh3bd1515205ed040p1b4228jsn4fa5c1e186f9",
+          "x-rapidapi-host": "matchilling-chuck-norris-jokes-v1.p.rapidapi.com"
         },
       };
       
