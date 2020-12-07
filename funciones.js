@@ -1,5 +1,5 @@
 function Buscar(){
-
+/*
     var settings = {
         "url": "https://matchilling-chuck-norris-jokes-v1.p.rapidapi.com/jokes/random",
         "method": "GET",
@@ -14,5 +14,34 @@ function Buscar(){
         console.log(response);
         $("#contenido").text(response.value);
       });
+*/
+    
+    
+    
+    lpTag.agentSDK.init({
+    
+        
+        
+        
+    });
 
+
+
+    var onSuccess = function(data) {
+        $("#alerta").text("exito");
+    };
+
+    var onError = function(err) {
+       $("#alerta").text("error");
+    };
+
+    var pathToData = "visitorInfo.visitorName";
+
+    lpTag.agentSDK.get(pathToData, onSuccess, onError);
+    
+    
+    
 }
+
+
+    
